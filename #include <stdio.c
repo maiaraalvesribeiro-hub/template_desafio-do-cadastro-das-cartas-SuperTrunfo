@@ -2,7 +2,7 @@
 
 int main(){
     // Jogo super trunfo// 
-        // Carta 1//
+        // Carta1//
     char estado1[50];
     char cidade1[50];
     char carta1 [4];
@@ -13,7 +13,7 @@ int main(){
     float PIBPERCAPTA1;
     float superpoder1;
 
-        //Carta 2 //
+        //Carta2 //
     char estado2[50];
     char cidade2[50];
     char carta2[4];
@@ -89,7 +89,7 @@ int main(){
 
     //SAIDA DE DADOS DA CARTA 1 //
 
-    printf("Carta 1");
+    printf("Carta1");
     printf("Codigo: %s\n",carta1);
     printf("Estado: %s\n",estado1);
     printf("Cidade: %s\n",cidade1);
@@ -99,11 +99,11 @@ int main(){
     printf("Pontos turisticos: %d \n",pontos_turisticos1);
     printf("Densidade populacional :%.2f hab/km² \n", Densidade1);
     printf("PIB Percapita :%2f \n", PIBPERCAPTA1);
-    printf("Super Poder :%2f",superpoder1);
+    printf("Super Poder :%2f \n",superpoder1);
 
     //SAIDA DE DADOS DA CARTA 2//
 
-    printf("Carta 2");
+    printf("Carta2");
     printf("Codigo: %s\n",carta2);
     printf("Estado: %s\n",estado2);
     printf("Cidade: %s\n",cidade2);
@@ -120,12 +120,12 @@ int main(){
     // RESULTADOS - COMPARAÇOES //
     printf ("Comparando as cartas\n");
    if (populacao1 > populacao2)
-   { "Populacao:Carta 1 venceu !\n");
+   { "Populacao:Carta 1 venceu %d!\n");
     vitorias1++;}
-    else{printf("Populacao: Carta 2 venceu!\n"); vitorias++;}
+    else{printf("Populacao: Carta2 venceu%d!\n"); vitorias++;}
 
     if(area1 > area2)
-     {printf("Area: Carta 1 venceu !\n)";vitorias1++;}
+     {printf("Area: Carta1 venceu%d !\n)";vitorias1++;}
     else{printf(Area: Carta 2 venceu!\n")";vitorias2++;}
 
     if(pontos_turisticos1 > pontos_turisticos2)
@@ -137,11 +137,11 @@ int main(){
     else{printf("Densidade populacional: carta 2 venceu !\n");vitorias2++;}
 
       if(PIBPERCAPTA1 > PIBPERCAPTA2);
-    {printf("PIB per Capita: carta 1 venceu !\n");vitorias1++;}
+    {printf("PIB per Capita: carta1 venceu !\n");vitorias1++;}
     else{printf("PIB per Capita: carta 2 venceu !\n");vitorias2++;}
 
       if(superpoder1 > superpoder2)
-    {printf("Super Poder: carta 1 venceu !\n");vitorias1++;}
+    {printf("Super Poder: carta1 venceu !\n");vitorias1++;}
     else{printf("Super Poder: carta 2 venceu !\n");vitorias2++;}
 
     
@@ -159,7 +159,7 @@ int main(){
     else if (vitorias2 > vitorias1)
      {printf("Carta 2 é a vencedora!\n");
          }
-else{printf("\nEmpate!\n");}
+    else{printf("\n Empate!\n");}
 
     return 0;
 
